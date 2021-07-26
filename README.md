@@ -1,2 +1,2 @@
 # ccloudcoinc.github.io
-Landing page for cloud
+Landing page for cloud coin
