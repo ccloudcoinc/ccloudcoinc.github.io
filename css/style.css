@@ -1,0 +1,121 @@
+body {
+    background-image: url('../images/bamboo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+
+.gradient{
+    background-image: linear-gradient(to right, rgb(0, 217, 255) , rgb(14, 145, 69));
+
+}
+
+
+
+/* #navigation-bar {
+    background-image: linear-gradient(to right, rgb(59, 120, 177) , rgb(18, 143, 35));
+    color: white;
+}
+
+#navigation-bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navigation-bar li {
+    display: inline;
+}
+
+#navigation-bar a {
+    color: rgb(235, 229, 229);
+    text-decoration: none;
+    font-size: bold;
+    padding-right: 20px;
+}
+
+a :hover{
+    color: green;
+    background-color: rgb(255, 115, 0);
+    text-decoration: none;
+} */
+
+#headbox{
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+    height: 1000px;
+    width: 100%;
+}
+
+#main{
+    background-color:white;
+    opacity: 0.95;
+    overflow: hidden;
+}
+
+#top-content{
+    text-align: center;
+    margin-bottom: 20px;
+    min-height: 400px;
+}
+
+
+img {
+  border-radius: 50%;
+  width: 40%;
+  padding: 50px;
+  opacity: 0.8;
+}
+
+iframe{
+    position: absolute;
+    margin: auto;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 560px; 
+    height: 315px;
+}
+
+
+
+
+#main-content{
+    /* Animation reference from https://www.sliderrevolution.com/resources/css-animated-background/ */
+    border: rgb(23, 228, 194) outset 10px;
+    
+    /* background-color: rgb(77, 169, 185); */
+    background: linear-gradient(-45deg, #eeca52, #72e73c, #23c9d5, #2344d5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color:rgb(17, 14, 8);
+    padding: 20px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+#main-footer {
+    background-color: rgb(73, 71, 71);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    
+}
