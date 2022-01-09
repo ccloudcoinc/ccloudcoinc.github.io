@@ -1,0 +1,20 @@
+
+#head{
+    background-color: rgb(248, 250, 148);
+    overflow: hidden;
+}
+#head h1{
+    padding:1%
+
+}
+
+/* nav{
+    background-color: rgb(238, 206, 99);
+} */
+
+#main-footer {
+    background-color: rgb(248, 250, 148);  
+    text-align: center;
+    padding: 5px;
+    
+}
