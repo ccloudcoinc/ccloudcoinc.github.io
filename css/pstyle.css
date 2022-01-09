@@ -14,7 +14,11 @@
 
 #main-footer {
     background-color: rgb(248, 250, 148);  
+    width:100%;
     text-align: center;
     padding: 5px;
+    position:absolute;
+    bottom:0;
     
 }
+
